@@ -1,1 +1,2 @@
-alert('hello world')
+import './react/main'
+import './index.css'

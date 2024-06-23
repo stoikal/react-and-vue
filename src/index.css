@@ -1,0 +1,38 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  font-weight: normal;
+}
+
+body {
+  min-height: 100vh;
+  transition:
+    color 0.5s,
+    background-color 0.5s;
+  line-height: 1.6;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(21, 20, 29);
+  color: rgb(197, 218, 213);
+}
+
+#root-container {
+  min-height: 100vh;
+  display: grid;
+  grid-template-columns: 1fr auto 1fr;
+}
+
+#separator {
+  border-left: 6px dotted #aaa;
+}
+
+#root-react {
+  position: relative;
+}
+
+#root-vue {
+  position: relative;
+}
