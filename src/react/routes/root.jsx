@@ -7,6 +7,7 @@ function Root () {
       <div className="p-4">
         <Link className="p-2" to='/'>home</Link>
         <Link className="p-2" to='/counter'>counter</Link>
+        <Link className="p-2" to='/todo'>todo</Link>
       </div>
       <Outlet />
     </div>

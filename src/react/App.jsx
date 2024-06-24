@@ -4,8 +4,9 @@ import {
   RouterProvider,
 } from 'react-router-dom'
 import Root from './routes/root'
-import Home from './routes/home'
 import Counter from './routes/counter'
+import Home from './routes/home'
+import Logo from './routes/logo'
 
 const router = createBrowserRouter([
   {
@@ -17,8 +18,12 @@ const router = createBrowserRouter([
         element: <Home />
       },
       {
-        path: "counter",
+        path: "/counter",
         element: <Counter />
+      },
+      {
+        path: "/todo",
+        element: <Todo />
       },
     ]
   },

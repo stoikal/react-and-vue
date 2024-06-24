@@ -3,6 +3,7 @@ import { createWebHistory, createRouter } from 'vue-router'
 import Root from './routes/Root.vue'
 import Home from  './routes/Home.vue'
 import Counter from './routes/Counter.vue'
+import Todo from './routes/Todo.vue'
 
 const routes = [
   {
@@ -16,6 +17,10 @@ const routes = [
       {
         path: 'counter',
         component: Counter
+      },
+      {
+        path: 'todo',
+        component: Todo
       },
     ]
   },
