@@ -5,6 +5,7 @@ import {
 } from 'react-router-dom'
 import Root from './routes/root'
 import Home from './routes/home'
+import Counter from './routes/counter'
 
 const router = createBrowserRouter([
   {
@@ -14,6 +15,10 @@ const router = createBrowserRouter([
       {
         path: "",
         element: <Home />
+      },
+      {
+        path: "counter",
+        element: <Counter />
       },
     ]
   },
