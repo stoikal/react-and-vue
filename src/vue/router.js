@@ -4,6 +4,7 @@ import Root from './routes/Root.vue'
 import Home from  './routes/Home.vue'
 import Counter from './routes/Counter.vue'
 import Todo from './routes/Todo.vue'
+import Logo from './routes/Logo.vue'
 
 const routes = [
   {
@@ -21,6 +22,10 @@ const routes = [
       {
         path: 'todo',
         component: Todo
+      },
+      {
+        path: 'logo',
+        component: Logo,
       },
     ]
   },

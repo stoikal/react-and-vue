@@ -7,6 +7,7 @@ import Root from './routes/root'
 import Counter from './routes/counter'
 import Home from './routes/home'
 import Logo from './routes/logo'
+import Todo from './routes/todo'
 
 const router = createBrowserRouter([
   {
@@ -25,6 +26,10 @@ const router = createBrowserRouter([
         path: "/todo",
         element: <Todo />
       },
+      {
+        path: "/logo",
+        element: <Logo />
+      }
     ]
   },
 ])
