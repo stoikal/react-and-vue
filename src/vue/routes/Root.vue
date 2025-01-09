@@ -3,7 +3,6 @@
     <RouterLink class="p-2" to="/">home</RouterLink>
     <RouterLink class="p-2" to="/counter">counter</RouterLink>
     <RouterLink class="p-2" to="/todo">todo</RouterLink>
-    <RouterLink class="p-2" to="/logo">logo</RouterLink>
   </div>
   <RouterView />
 </template>
